@@ -1,0 +1,13 @@
+package com.example.demo;
+
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class Customer {
+
+    private String id;
+    private String name;
+    private String company;
+    private LocalDate birthdate;
+}
